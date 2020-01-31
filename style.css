@@ -1,22 +1,12 @@
-.containerbox{
+#container-box{
 	width: 300px;
 	height: 250px;
-	background-color: blue;
-	align-content: center;
-	border-radius: 30%;
+	background-color: red;
+	position: relative;
+	margin: calc(50vh - 125px) auto;
 }
 
-.box1{
-	width: 300px;
-	height: 250px;
-	background-color: blue;
-	align-content: center;
-	border-radius: 30%;
-	position: absolute;
-
-}
-
-.box2{
+#box1, #box2, #box3, #box4{
 	width: 300px;
 	height: 250px;
 	background-color: blue;
@@ -25,20 +15,24 @@
 	position: absolute;
 }
 
-.box3{
-	width: 300px;
-	height: 250px;
-	background-color: blue;
-	align-content: center;
-	border-radius: 30%;
-	position: absolute;
+#box2{
+	background-color: green;
+	top: -10%;
 }
 
-.box4{
-	width: 300px;
-	height: 250px;
-	background-color: blue;
-	align-content: center;
-	border-radius: 30%;
-	position: absolute;
+#box3{
+	background-color: yellow;
+	top: -20%;
+	transition: top 0.5s;
+}
+
+#box3.open {
+	top: -100%;
+}
+
+
+#box4{
+	background-color: purple;
+	top: -30%;
+	transition: top 0.5s;
 }
