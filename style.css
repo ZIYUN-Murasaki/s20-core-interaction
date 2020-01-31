@@ -55,10 +55,10 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	padding: 10px;
-	padding: 100px;
+	padding: 20px;
 	width: 50%;
   	display: flex;
-  	background-color: green;
+  	background-color: ;
   	justify-content: space-between;
 
 }
@@ -115,14 +115,50 @@ p{
 	background-color: #6A4C9C;
 }
 
-.small_circle{
+
+.box1:hover .small_circle1, .box2:hover .small_circle2, .box3:hover .small_circle3, .box4:hover .small_circle4{
+	transition: all 0.3s ease-in-out;
+	width:60px;
+	height: 60px;
+}
+
+
+.small_circle1{
 	width: 50px;
 	height: 50px;
-	background-color: blue;
+	background-color: #8A6BBE;
 	border-radius: 25px;
 	margin: 0 auto;
 	margin-top: 25px;
 }
+
+.small_circle2{
+	width: 50px;
+	height: 50px;
+	background-color: #8A6BBE;
+	border-radius: 25px;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+
+.small_circle3{
+	width: 50px;
+	height: 50px;
+	background-color: #8A6BBE;
+	border-radius: 25px;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+
+.small_circle4{
+	width: 50px;
+	height: 50px;
+	background-color: #8A6BBE;
+	border-radius: 25px;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+
 
 
 .intro, .studio, .lab, .student{
@@ -151,19 +187,32 @@ a{
 .studio{
 	width: 100px;
 	height: 100px;
-	margin-top: 120px;	
+	margin-top: 45px;
+	transition: margin-top 0.3s ease-in-out;	
+}
+
+.box2:hover .studio{
+	margin-top: 50px;
 }
 
 .lab{
 	width: 100px;
 	height: 100px;
-	margin-top: 120px;	
+	margin-top: 45px;
+	transition: margin-top 0.3s ease-in-out;
+}
+
+.box3:hover .lab{
+	margin-top: 50px;
 }
 
 .student{
 	width: 100px;
 	height: 100px;
-	margin-top: 120px;
+	margin-top: 45px;
+	transition: margin-top 0.3s ease-in-out;
 }
 
-
+.box4:hover .student{
+	margin-top: 50px;
+}
