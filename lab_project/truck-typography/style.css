@@ -1,0 +1,80 @@
+.containerbox{
+	
+}
+
+img{
+	position: absolute;
+	margin-left: 550px;
+	top: 100px;
+	opacity: 0;
+}
+
+.bigbox1{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:200px;
+	width: 600px;
+	height: 250px;
+	border:5px solid black;
+	border-radius: 30px;
+	text-align: center;
+	transition: opacity 0s linear;
+}
+
+.box1{
+	font-size: 130px;
+	letter-spacing: 2px;
+	font-family: franklin-gothic-urw-cond, sans-serif;
+	font-weight: 700;
+	font-style: italic;	margin-bottom: 0;
+}
+
+.box2{
+	margin-left: auto;
+	margin-right: auto;
+	width: 550px;
+	height: 3px;
+	background-color: black;
+}
+
+.box3{
+	font-size: 40px;
+	font-family: 'Rubik Mono One', sans-serif;
+}
+
+.box4{
+	margin-left: auto;
+	margin-right: auto;
+	width: 550px;
+	height: 3px;
+	background-color: black;
+}
+
+.bigbox2{
+	position: relative;
+	left: 620px;
+	top: -20px;
+	/*top: 500px;*/
+	width: 200px;
+	height: 30px;
+	background-color: white;
+	text-align: center;
+	transition: opacity 0s linear;
+}
+
+.box5{
+	font-size: 20px;
+	font-family: Arial;
+}
+
+.containerbox:hover img{
+	opacity:1;
+}
+
+.containerbox:hover .bigbox1 {
+	opacity:0;
+}
+
+.containerbox:hover .bigbox2 {
+	opacity:0;
+}
