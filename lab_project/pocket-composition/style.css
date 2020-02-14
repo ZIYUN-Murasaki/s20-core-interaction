@@ -1,0 +1,601 @@
+
+body{
+	background-color: grey;
+}
+
+.parent1{
+	display: flex;  /* or inline-flex */
+	flex direction: row;
+	/*row/ column / reverse row/ reverse column*/
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	/*space-between/ space- around/ center/ flex-end*/
+	align-items: stretch;
+	/*align things in column*/
+	/*see the resources on the the lab page*/
+}
+
+.children1{
+	width: 10vw;
+	height: 20vh;
+	background-color: #5DAC81;
+}
+
+.children1:nth-of-type(even){
+	background-color: #77428D;
+}
+
+
+.parent2{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+}
+
+.children2{
+	width: 0;
+	height: 0;
+	border-left: 10vw solid transparent;
+	border-right: 10vw solid transparent;
+	border-bottom: 20vh solid #555;
+}
+
+
+.children2:nth-of-type(even){
+	border-left: 10vw solid transparent;
+	border-right: 10vw solid transparent;
+	border-bottom: 20vh solid #FFB11B;
+}
+
+
+.parent3{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+}
+
+.children3{
+	display: inline-flex;  
+	flex direction: row;
+	width: 0;
+	height: 0;
+	border-left: 10vw solid transparent;
+	border-right: 10vw solid transparent;
+	border-top: 20vh solid #555;
+}
+
+.children3:nth-of-type(odd){
+	border-left: 10vw solid transparent;
+	border-right: 10vw solid transparent;
+	border-top: 20vh solid #FFB11B;
+}
+
+.parent4{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+}
+
+.children4{
+	padding: 0;
+ 	margin: 0;
+	height: 10vw;
+ 	width: 10vw;
+	background-color: #FFB11B;
+	
+}
+
+.children4:nth-of-type(odd){
+	border-radius: 50%;
+	background-color: #CB4042;
+}
+
+
+.parent5{
+	display: flex;  /* or inline-flex */
+	flex direction: row;
+	/*row/ column / reverse row/ reverse column*/
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	/*space-between/ space- around/ center/ flex-end*/
+	align-items: stretch;
+	/*align things in column*/
+	/*see the resources on the the lab page*/
+}
+
+.children5{
+	width: 20vw;
+	height: 20vh;
+	border-radius: 0vw 50vw 0vw 50vw;
+	background-color: #0089A7;
+}
+
+.children5:nth-of-type(even){
+	border-radius: 50vw 0vw 50vw 0vw;	
+	background-color: #81C7D4;
+}
+
+.parent6{
+	display: flex;  /* or inline-flex */
+	flex direction: row;
+	/*row/ column / reverse row/ reverse column*/
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	/*space-between/ space- around/ center/ flex-end*/
+	align-items: stretch;
+	/*align things in column*/
+	/*see the resources on the the lab page*/
+}
+
+.children6{
+	width: 20vw;
+	height: 20vh;
+	border-radius: 50vw 0vw 50vw 0vw;	
+	background-color: #81C7D4;
+}
+
+.children6:nth-of-type(even){
+	border-radius: 0vw 50vw 0vw 50vw;
+	background-color: #0089A7;
+}
+
+
+.parent7{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+}
+
+.children7{
+	display: inline-flex;  
+	flex direction: row;
+	width: 0;
+	height: 0;
+	border-left: 10vw solid transparent;
+	border-right: 10vw solid transparent;
+	border-bottom: 40vh solid #555;
+}
+
+
+.children7:nth-of-type(even){
+	border-left: 10vw solid transparent;
+	border-right: 10vw solid transparent;
+	border-bottom: 40vh solid #FFB11B;
+}
+
+
+.parent8{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+}
+
+.children8{
+	display: inline-flex;  
+	flex direction: row;
+	width: 0;
+	height: 0;
+	border-left: 10vw solid transparent;
+	border-right: 10vw solid transparent;
+	border-top: 40vh solid #555;
+}
+
+.children8:nth-of-type(odd){
+	border-left: 10vw solid transparent;
+	border-right: 10vw solid transparent;
+	border-top: 40vh solid #FFB11B;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  
+body {
+	background-color: #0B346E;
+}
+
+
+.parent1{
+	display: flex;  /* or inline-flex */
+	flex direction: row;
+	/*row/ column / reverse row/ reverse column*/
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	/*space-between/ space- around/ center/ flex-end*/
+	align-items: stretch;
+	/*align things in column*/
+	/*see the resources on the the lab page*/
+}
+
+.children1{
+	width: 10vw;
+	height: 20vh;
+	background-color: #CB4042;
+}
+
+.children1:nth-of-type(even){
+	background-color: #69B0AC;
+}
+
+
+.parent2{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+}
+
+.children2{
+	width: 0;
+	height: 0;
+	border-left: 10vw solid transparent;
+	border-right: 10vw solid transparent;
+	border-bottom: 20vh solid #CB4042;
+}
+
+
+.children2:nth-of-type(even){
+	border-left: 10vw solid transparent;
+	border-right: 10vw solid transparent;
+	border-bottom: 20vh solid #69B0AC;
+}
+
+
+.parent3{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+}
+
+.children3{
+	display: inline-flex;  
+	flex direction: row;
+	width: 0;
+	height: 0;
+	border-left: 10vw solid transparent;
+	border-right: 10vw solid transparent;
+	border-top: 20vh solid #CB4042;
+}
+
+.children3:nth-of-type(odd){
+	border-left: 10vw solid transparent;
+	border-right: 10vw solid transparent;
+	border-top: 20vh solid #69B0AC;
+}
+
+.parent4{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+}
+
+.children4{
+	padding: 0;
+ 	margin: 0;
+	height: 10vw;
+ 	width: 10vw;
+	background-color: #CB4042;
+	
+}
+
+.children4:nth-of-type(odd){
+	border-radius: 50%;
+	background-color: #69B0AC;
+}
+
+
+.parent5{
+	display: flex;  /* or inline-flex */
+	flex direction: row;
+	/*row/ column / reverse row/ reverse column*/
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	/*space-between/ space- around/ center/ flex-end*/
+	align-items: stretch;
+	/*align things in column*/
+	/*see the resources on the the lab page*/
+}
+
+.children5{
+	width: 20vw;
+	height: 20vh;
+	border-radius: 0vw 50vw 0vw 50vw;
+	background-color: #CB4042;
+}
+
+.children5:nth-of-type(even){
+	border-radius: 50vw 0vw 50vw 0vw;	
+	background-color: #69B0AC;
+}
+
+.parent6{
+	display: flex;  /* or inline-flex */
+	flex direction: row;
+	/*row/ column / reverse row/ reverse column*/
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	/*space-between/ space- around/ center/ flex-end*/
+	align-items: stretch;
+	/*align things in column*/
+	/*see the resources on the the lab page*/
+}
+
+.children6{
+	width: 20vw;
+	height: 20vh;
+	border-radius: 50vw 0vw 50vw 0vw;	
+	background-color: #CB4042;
+}
+
+.children6:nth-of-type(even){
+	border-radius: 0vw 50vw 0vw 50vw;
+	background-color: #69B0AC;
+}
+
+
+.parent7{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+}
+
+.children7{
+	display: inline-flex;  
+	flex direction: row;
+	width: 0;
+	height: 0;
+	border-left: 10vw solid transparent;
+	border-right: 10vw solid transparent;
+	border-bottom: 40vh solid #CB4042;
+}
+
+
+.children7:nth-of-type(even){
+	border-left: 10vw solid transparent;
+	border-right: 10vw solid transparent;
+	border-bottom: 40vh solid #69B0AC;
+}
+
+
+.parent8{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+}
+
+.children8{
+	display: inline-flex;  
+	flex direction: row;
+	width: 0;
+	height: 0;
+	border-left: 10vw solid transparent;
+	border-right: 10vw solid transparent;
+	border-top: 40vh solid #CB4042;
+}
+
+.children8:nth-of-type(odd){
+	border-left: 10vw solid transparent;
+	border-right: 10vw solid transparent;
+	border-top: 40vh solid #69B0AC;
+}
+}
+
+
+@media screen and (max-width: 375px) {
+body {
+	background-color: #26192b;
+}
+
+
+.parent1{
+	display: flex;  /* or inline-flex */
+	flex direction: row;
+	/*row/ column / reverse row/ reverse column*/
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	/*space-between/ space- around/ center/ flex-end*/
+	align-items: stretch;
+	/*align things in column*/
+	/*see the resources on the the lab page*/
+}
+
+.children1{
+	width: 10vw;
+	height: 20vh;
+	background-color: #e1c2eb;
+}
+
+.children1:nth-of-type(even){
+	background-color: #bac7fb;
+}
+
+
+.parent2{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+}
+
+.children2{
+	width: 0;
+	height: 0;
+	border-left: 10vw solid transparent;
+	border-right: 10vw solid transparent;
+	border-bottom: 20vh solid #e1c2eb;
+}
+
+
+.children2:nth-of-type(even){
+	border-left: 10vw solid transparent;
+	border-right: 10vw solid transparent;
+	border-bottom: 20vh solid #bac7fb;
+}
+
+
+.parent3{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+}
+
+.children3{
+	display: inline-flex;  
+	flex direction: row;
+	width: 0;
+	height: 0;
+	border-left: 10vw solid transparent;
+	border-right: 10vw solid transparent;
+	border-top: 20vh solid #c46fb2;
+}
+
+.children3:nth-of-type(even){
+	border-left: 10vw solid transparent;
+	border-right: 10vw solid transparent;
+	border-top: 20vh solid #51588c;
+}
+
+.parent4{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+}
+
+.children4{
+	padding: 0;
+ 	margin: 0;
+	height: 10vw;
+ 	width: 10vw;
+	background-color: #c46fb2;
+	
+}
+
+.children4:nth-of-type(odd){
+	border-radius: 50%;
+	background-color: #51588c;
+}
+
+
+.parent5{
+	display: flex;  /* or inline-flex */
+	flex direction: row;
+	/*row/ column / reverse row/ reverse column*/
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	/*space-between/ space- around/ center/ flex-end*/
+	align-items: stretch;
+	/*align things in column*/
+	/*see the resources on the the lab page*/
+}
+
+.children5{
+	width: 20vw;
+	height: 20vh;
+	border-radius: 0vw 50vw 0vw 50vw;
+	background-color: #c46fb2;
+}
+
+.children5:nth-of-type(even){
+	border-radius: 50vw 0vw 50vw 0vw;	
+	background-color: #bac7fb;
+}
+
+.parent6{
+	display: flex;  /* or inline-flex */
+	flex direction: row;
+	/*row/ column / reverse row/ reverse column*/
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	/*space-between/ space- around/ center/ flex-end*/
+	align-items: stretch;
+	/*align things in column*/
+	/*see the resources on the the lab page*/
+}
+
+.children6{
+	width: 20vw;
+	height: 20vh;
+	border-radius: 50vw 0vw 50vw 0vw;	
+	background-color: #c46fb2;
+}
+
+.children6:nth-of-type(even){
+	border-radius: 0vw 50vw 0vw 50vw;
+	background-color: #bac7fb;
+}
+
+
+.parent7{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+}
+
+.children7{
+	display: inline-flex;  
+	flex direction: row;
+	width: 0;
+	height: 0;
+	border-left: 10vw solid transparent;
+	border-right: 10vw solid transparent;
+	border-bottom: 40vh solid #bac7fb;
+}
+
+
+.children7:nth-of-type(even){
+	border-left: 10vw solid transparent;
+	border-right: 10vw solid transparent;
+	border-bottom: 40vh solid #bac7fb;
+}
+
+
+.parent8{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+}
+
+.children8{
+	display: inline-flex;  
+	flex direction: row;
+	width: 0;
+	height: 0;
+	border-left: 10vw solid transparent;
+	border-right: 10vw solid transparent;
+	border-top: 40vh solid #e1c2eb;
+}
+
+.children8:nth-of-type(odd){
+	border-left: 10vw solid transparent;
+	border-right: 10vw solid transparent;
+	border-top: 40vh solid #c46fb2;
+}
+}
