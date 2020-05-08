@@ -13,6 +13,9 @@
 // 	box3classList.toggle("open");
 // }
 
+$( function() {
+    $( "#menu" ).menu();
+  } );
 
 
 

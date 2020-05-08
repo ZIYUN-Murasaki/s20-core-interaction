@@ -1,0 +1,86 @@
+body{ 
+	background-color: rgb(27, 155, 155);
+	display: grid;
+	align-items: center;
+	justify-content: center;
+}
+
+
+#container-box{
+	position: relative;
+	width: 40rem;
+	height: 40rem;
+	top:3rem;
+	background-color: rgb(197, 53, 39);
+	border-radius: 6rem;
+	border:solid 0.8rem rgb(246, 188, 72);
+}
+
+.circle{
+	position: relative;
+	top:3rem;
+	left: 4rem;
+	width: 10rem;
+	height: 10rem;
+	border-radius: 100%;
+	background-color: rgb(246, 188, 72);
+	color: rgb(197, 53, 39);
+	font-size: 5rem;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	font-family:  Simplified Chinese Sans;
+}
+
+.shifu{ 
+	position: absolute;
+	top: 2rem;
+	left: 15rem;
+	width: 5rem;
+	height: 10rem;
+	color: rgb(246, 188, 72);
+	font-size:4rem;
+}
+
+.slogan2{ 
+	position: absolute;
+	left: 30rem;
+	top: 3rem;
+	width: 5rem;
+	height: 5rem;
+	color: rgb(246, 188, 72);
+	font-size:4rem;
+	background-color: ;
+}
+.slogan{
+	position: relative;
+	top: 4rem;
+	left: 4rem;
+	color: white;
+	font-size: 2rem;
+	font-family: atten-round-new, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+}
+
+.button{
+	position: relative;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	left: 12rem;
+	top: 20rem;
+	font-size: 2rem;
+	font-family: atten-round-new, sans-serif;
+	width: 15rem;
+	height: 3rem;
+	background-color: rgb(246, 188, 72);
+	border-radius: 50rem;
+	text-decoration: none;
+	color: rgb(197, 53, 39);
+}
+
+.button:hover{
+	background-color: rgb(240, 171, 34);
+	color: rgb(197, 53, 39);
+}

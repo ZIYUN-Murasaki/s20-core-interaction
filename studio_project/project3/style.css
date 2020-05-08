@@ -1,0 +1,96 @@
+body{
+	width: 100vw;
+	height: 100vh;
+	background-color: #071840;
+	cursor: none;
+	justify-content: space-between;
+	font-family: 'Bungee', cursive;
+	margin: 0;
+	}
+
+  #cat-image{
+  	  display: block;
+      max-width: 300px;
+      max-height: 300px;
+      width: auto;
+      height: auto;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      transform:translate(-50%, -50%);
+      pointer-events: none;
+}
+
+/*#box {
+    background-color: red;
+    width:200px;
+    height:200px;
+    margin:50px;
+    transition: ease-in-out 0.5s;
+    align-content: center;
+}*/
+
+p{ 
+	color: #F7C242;
+	font-family: 'Bungee', cursive;
+	font-size: 100px;
+	margin-top: 100px;
+	text-align: center;
+}
+
+audio{ 
+	text-align: center;
+ }
+
+h1{
+	text-align: center;
+	color: white;
+}
+
+.box1, .box2, .box3, .box4, .box5{
+	font-size: 50px;
+	color: #ad14ff;
+	transition: ease-in-out 0.1s;
+	position: relative;
+	text-align: center;
+	justify-content: center;
+	margin: none;
+}
+
+.box1{
+	right: 400px;
+	top: 230px;
+	position: absolute;
+}
+
+.box2{
+	right: 400px;
+	top: 600px;
+	position: absolute;
+}
+
+.box3{
+	left: 300px;
+	top: 290px;
+	position: absolute;
+}
+
+.box4{
+	right: 250px;
+	top: 400px;
+	position: absolute;
+}
+
+.box5{
+	left: 400px;
+	top: 500px;
+	position: absolute;
+}
+
+.box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover{
+	color: #F7C242;
+}
+
+
+

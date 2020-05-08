@@ -1,3 +1,37 @@
 body{
-	background-color: #70649A;
+	background-color: #FDC131;
+	font-family: 'Rubik', sans-serif;
+	display: flex;
+	flex-direction: column; 
+}
+
+a{
+	text-decoration:none;
+}
+
+.container{
+	position: relative;
+	margin-top: 5rem;
+}
+.project{
+	font-size: 3rem;
+	border:3px solid #6867BF;
+	color: ;
+	margin: 2rem;
+}
+
+
+.return{
+	font-size: 3rem;
+	border:3px solid #6867BF;
+	border-radius: 50px;
+}
+
+.project:hover{
+	border:5px solid #6867BF;
+}
+
+
+.return:hover{
+	border:5px solid #6867BF;
 }

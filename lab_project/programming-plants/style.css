@@ -1,0 +1,52 @@
+body{
+margin: 0;
+height: 100vh;
+display: grid;
+align-items: center;
+justify-content: center;
+background-color: #88d47b;
+}
+
+
+#container{
+width: 300px;
+position: relative;
+}
+
+#leafbox{
+width: 300px;
+display: flex;
+flex-direction: row;
+}
+
+#leaf1{
+position: relative;
+width: 150px;
+height: 100px;
+border-radius: 5px 50px 0px 50px;
+background-color: green;
+}
+
+#leaf2{
+position: relative;
+width: 150px;
+height:100px;
+border-radius: 50px 5px 50px 0px;
+background-color: green;
+}
+
+#plant{
+margin-left: 35%;
+width: 30%;
+height: 0;
+background-color: green;
+transition: height 0.2s ease-in-out;
+}
+
+#pot{
+	width: 100%;
+	height: 300px;
+	background-color: brown;
+	border-radius: 5px 5px 50px 50px;
+}
+
